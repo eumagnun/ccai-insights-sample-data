@@ -103,13 +103,13 @@ def generate_log():
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 1,
-                "text": "Hi, I'm having an issue with my " + device,
+                "text": "Olá, estou tendo um problema com meu " + device,
                 "role": "CUSTOMER",
                 "user_id": 1,
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 2,
-                "text": "Sorry to hear. Can you tell me what the problem is?",
+                "text": "Lamento ouvir isso. Você pode me dizer qual é o problema?",
                 "role": "AGENT",
                 "user_id": 2,
             },
@@ -121,7 +121,7 @@ def generate_log():
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 4,
-                "text": "Can you give me more details about the problem with your {0}?".format(device),
+                "text": "Você pode me dar mais detalhes sobre o problema com seu {0}?".format(device),
                 "role": "AGENT",
                 "user_id": 2,
             },
@@ -133,7 +133,7 @@ def generate_log():
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 6,
-                "text": "And what is the status shown in the settings on the {0}?".format(device),
+                "text": "E qual é o status mostrado nas configurações do {0}?".format(device),
                 "role": "AGENT",
                 "user_id": 2,
             },
@@ -145,13 +145,13 @@ def generate_log():
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 8,
-                "text": "Can you tell me your account number?",
+                "text": "Você pode me dizer o número da sua conta?",
                 "role": "AGENT",
                 "user_id": 2,
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 9,
-                "text": "Sure, it's " + str(random.randint(100000000, 999999999)),
+                "text": "Certo, seria " + str(random.randint(100000000, 999999999)),
                 "role": "CUSTOMER",
                 "user_id": 1,
             },
@@ -163,7 +163,7 @@ def generate_log():
             },
             {
                 "start_timestamp_usec": timestamp + response_delay * 11,
-                "text": "I see, thanks for the information, I will give that a try.",
+                "text": "Entendo, obrigado pela informação, vou tentar.",
                 "role": "CUSTOMER",
                 "user_id": 1,
             },
